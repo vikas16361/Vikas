@@ -1,0 +1,35 @@
+#clock{
+    
+    height: 100vw;
+    width: 100vw;
+    background-image: url(p1.jpg);
+    background-size: 100%;
+    margin: auto;
+
+}
+#hour,#min,#sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+#hour {
+    width: 6px;
+    height: 137px;
+    top: 176px;
+    right: 766px;
+    transform-origin: bottom;
+}
+#min {
+    width: 4px;
+    height: 181px;
+    top: 134px;
+    right: 764px;
+    transform-origin: bottom;
+}
+#sec {
+    width: 2px;
+    height: 194px;
+    top: 120px;
+    right: 768px;
+    transform-origin: bottom;
+}
